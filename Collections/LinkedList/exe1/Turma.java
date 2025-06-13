@@ -20,6 +20,16 @@ public class Turma {
         alunos.add(aluno);
     }
 
+
+    public void adicionarAlunoNaPosicao(int posicao, Aluno aluno) {
+    if (posicao >= 0 && posicao <= alunos.size()) {
+        alunos.add(posicao, aluno);
+    } else {
+        System.out.println("Posição inválida!");
+    }
+}
+
+
     public void removerAluno(Aluno aluno){
         alunos.remove(aluno);
     }

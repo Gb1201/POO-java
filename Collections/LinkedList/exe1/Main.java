@@ -25,7 +25,7 @@ public class Main {
 
 
         System.out.println("=========================Adicionando de novo o aluno removido==============");
-        turma.adicionarAluno(aluno2);
+        turma.adicionarAlunoNaPosicao(1, aluno2);
         turma.listarAlunos();
         
     }
